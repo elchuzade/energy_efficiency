@@ -1,6 +1,6 @@
 # energy_efficiency_dataset
 #### The dataset was created by Angeliki Xifara (angxifara '@' gmail.com, Civil/Structural Engineer) and was processed by Athanasios Tsanas (tsanasthanasis '@' gmail.com, Oxford Centre for Industrial and Applied Mathematics, University of Oxford, UK)
-#### The labels are encoded as follows
+#### The labels are encoded in the following way
 
 ###### X1 - Relative Compactness
 ###### X2 - Surface Area
