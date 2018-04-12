@@ -14,4 +14,5 @@
 ###### Y2 - Cooling Load
 
 ##### The link to the dataset  https://archive.ics.uci.edu/ml/datasets/Energy+efficiency
-##### I have used Linear Regression method to predict the output Y1 and Y2 from sklearn library
+##### I have used Linear Regression method to predict the output Y1 and Y2 from sklearn library.
+Software used: Python, Jupyter-Notebook.
