@@ -18,4 +18,5 @@ I have separated the dataset into two different datasets with only one column to
 Thus I have got X1-8 ~ Y1 and X1-8 ~ Y2. Then i have separated each dataset to input and output,
 where in both cases the inputs were the same X1-8. Then I have 80/20 proportion for splitting the dataset intp train and test sets.
 I have then used Linear Regression method to predict the output Y1 and Y2 separately.
-##### Software used: Python, Jupyter-Notebook, SkLearn(library).
+##### Software used: Python, Jupyter-Notebook.
+##### Libraries used: SkLearn, Pandas, Numpy.
