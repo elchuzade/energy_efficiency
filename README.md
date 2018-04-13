@@ -1,4 +1,4 @@
-# energy_efficiency
+# Energy Efficiency Dataset
 
 #### The dataset is obtained by performing energy analysis using 12 different building shapes simulated in Ecotect. It was created by Angeliki Xifara (angxifara '@' gmail.com, Civil/Structural Engineer) and was processed by Athanasios Tsanas (tsanasthanasis '@' gmail.com, Oxford Centre for Industrial and Applied Mathematics, University of Oxford, UK).
 
