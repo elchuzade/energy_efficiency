@@ -1,28 +1,73 @@
 # Energy Efficiency Dataset
 
-#### The dataset is obtained by performing energy analysis using 12 different building shapes simulated in Ecotect. It was created by Angeliki Xifara (angxifara '@' gmail.com, Civil/Structural Engineer) and was processed by Athanasios Tsanas (tsanasthanasis '@' gmail.com, Oxford Centre for Industrial and Applied Mathematics, University of Oxford, UK).
+Data analysis using common Machine Learning Algorithm named Linear Regression
 
-#### The goal is to predict Y1 and Y2 (e.g. Heating Load and Cooling Load)
+## Getting Started
 
-#### The labels are encoded in the following way
+The dataset is describing the heating load and cooling load requirements of buildings (that is, energy efficiency) as a function of building parameters. The dataset was taken from UCI, a Machine Learning repository. Link to the dataset will be provided in the acknowledgement. To be able to run and modify the project, please make sure you have jupyter notebook, python 3, pandas, numpy and sklearn (scikit-learn). These can be done either through pip or conda. See Installing for more detailed information and links.
 
-###### X1 - Relative Compactness
-###### X2 - Surface Area
-###### X3 - Wall Area
-###### X4 - Roof Area
-###### X5 - Overall Height
-###### X6 - Orientation
-###### X7 - Glazing Area
-###### X8 - Glazing Area Distribution
-###### Y1 - Heating Load
-###### Y2 - Cooling Load
+### Prerequisites
 
-##### The link to the dataset  https://archive.ics.uci.edu/ml/datasets/Energy+efficiency
+Required stack of programs and libraries are Jupyter notebook, Python 3, Pandas, Numpy and Sklearn (scikit-learn)
 
-I have separated the dataset into two different datasets with only one column to predict at each time.
-Thus I have got X1-8 ~ Y1 and X1-8 ~ Y2. Then i have separated each dataset to input and output,
-where in both cases the inputs were the same X1-8. Then I have used 80/20 proportion for splitting the dataset into train and test sets.
-I have then used Linear Regression method to predict the output Y1 and Y2 separately.
+### Installing
 
-##### Software used: Python, Jupyter-Notebook.
-##### Libraries used: SkLearn, Pandas, Numpy.
+Make sure to install conda or pip.
+I have personally used conda, for which first I had to download Anaconda distribution - The World's most popular Python/R Data science platform, as it is more suitable for data analysis and it includes libraries from other programming languages such as C, C++, R.
+Go to terminal
+
+```
+conda --version
+```
+
+If the code above returns some version you are good to go, otherwise follow the link below to install anaconda:
+https://www.anaconda.com/distribution/
+
+After the anaconda installation is complete, open the terminal and follow with the required packages installation
+
+```
+conda install -c conda-forge jupyterlab
+```
+
+Create a new environment for this project
+
+```
+conda create -n yourEnvironmentName
+```
+
+Switch to the newly created environment
+
+```
+source activate yourEnvironmentName
+```
+
+Install required packages
+
+```
+conda install python=3.6 numpy pandas scikit-learn
+```
+
+After all the above installations are successfully completed clone the repo
+
+```
+git clone thisRepoName
+```
+
+And finally open the jupyter notebook by just typing
+
+```
+jupyter notebook
+```
+
+You will see the current folder being opened in the browser, navigate to the Energy_Efficiency.ipynb file and open it.
+Click play button to execute each cell of code or comments
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+Dataset was created by Angeliki Xifara (angxifara@gmail.com, Civil/Structural Engineer) and was processed by Athanasios Tsanas (tsanasthanasis@gmail.com, Oxford Centre for Industrial and Applied Mathematics, University of Oxford, UK)
+
+- dataset by Kory Becker: https://archive.ics.uci.edu/ml/datasets/Energy+efficiency
